@@ -1,0 +1,63 @@
+html, 
+body {
+  padding:0;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+h1, p {
+  margin:1em auto; 
+  text-align: center; 
+}
+form{
+  width:60%;
+  margin:0 auto;
+  min-width:300px;
+  max-width:450px;
+}
+label{
+  display:block;
+  maargin:0.5rem;
+}
+fieldset{
+  border:solid black 2px;
+  border-radius:5px;
+}
+input, select{
+  border-radius:0.5rem;
+  width:100%;
+  min-height:2em;
+}
+input[type="color"]{
+width:10%;
+}
+input[type="submit"] {
+  display:black;
+  width:6%;
+  margine:1em auto;
+  background-color:#bcbd5c;
+  font-weight:bold;
+  font-size:1.2em;
+  color:#fff;
+}
+input[type="submit"]:hover{
+  background-color:rosybrown;
+  
+}
+.success{
+  background-color:green;
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  color:white;
+  text-align: center;
+  font-size:50px;
+  line-height: 1.5;
+  font-weight:bold;
+}
+.success h1{
+  margin:40px auto;
+}
+
